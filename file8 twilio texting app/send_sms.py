@@ -12,7 +12,7 @@ Created on Sun Mar 29 13:26:42 2020
 
 client= Client(account_sid, auth_token)
 
-msg=('What the hell..Kanji is here\n' for i in range(5))
+msg=('Messege is sending.......\n' for i in range(5))
 
 my_msg= ''.join(msg)
 
