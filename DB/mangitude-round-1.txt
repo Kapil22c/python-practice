@@ -1,0 +1,175 @@
+char * ptr = "Hello World"
+ptr[0] = 'F'
+ 
+No sir
+Because it is pointer and we shoud change its address in order to pick the value
+I don't know exactly sir
+
+yes sir
+i am thinkining right now
+
+public void fun(String a){
+int count =1;
+char last = input.charAt(0);
+StiringBUilder out = new StringBuilder();
+int length= a.length();
+	
+for(int i=1; i<a.length(); i++){
+	if(i==length-1){
+		out.append(a.charAt(i)+""+count);
+		break;
+	}
+	if(a.charAt(i)==a.charAt(i+1){
+		count++;
+	}
+	else{
+		out.append(a.charAt(i)+""+count);
+	count=1;
+	}
+	}
+System.out.println(out.toString());
+}
+
+I can do without StringBuider also sir
+Yes sir
+
+
+String result = "";
+while(i<a.length()){
+	char c = a.charAt(i);
+	char c = a.charAt(i);
+	int count = count(a, i);
+	if(count==1){result+""+c;}
+	else{
+		result+= ""+count+c;
+	i = i+count;
+}
+return result;
+
+void reverse(){
+	Node* current = head;
+	Node *prev = NULL, *next = NULL;
+	
+	while(current!= NULL){
+		next = current->next;
+		current->next= prev;
+
+		prev= current;
+		current = next; 
+	}	
+	head = prev;
+}
+
+1->2->3->4->NULL
+
+4->3->2->1->NULL
+
+
+
+void deleteTree(treenode *node){
+
+	if(node!= NULL){
+		deleteTree(node->leftChild);
+		deleteTree(node->rightChild);
+		node = null;
+	}
+		
+}
+
+
+Animal shelter
+1. Keep details of Animal type and it's qualtity. eg: dog - 10, cat - 20 , cow - 5
+2. Keep details of food likening of the animal. eg. cat likes fish and milk
+
+
+3.   Store details of quantity of food item. eg: fish - 20 kg , milk - 10 ltr
+
+
+Table Name: Animal
+
+CREATE TABLE Animals(id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER)
+
+Table Name : Food
+
+CREATE TABLE food(id INTEGER , food TEXT, quantity INTEGER, likes VARCHAR2(200));
+
+cat likes fish and milk
+
+INSERT IN food('id', 'food', 'quantity','likes') VALUES ('1','fish','4','cat likes fish and milk');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
